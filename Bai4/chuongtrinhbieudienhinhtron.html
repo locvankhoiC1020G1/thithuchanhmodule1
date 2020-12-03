@@ -17,11 +17,11 @@ Circle: Tên lớp
 Hãy thực hiện các thao tác theo kịch bản sau:
 - Tạo một hình tròn có toạ độ 10, 10 và bán kính 100, màu #000000
 - Hiển thị hình tròn trên một canvas bằng cách sử dụng phương thức render-->
-<canvas id="hinhTron" height="400" width="500" style="border: 1px solid #363783 "></canvas>
+<canvas id="hinhTron" height="400" width="500" style="border: 1px solid #4142b7 "></canvas>
 
 <script>
 let circle = new Circle(10,10,100, "#000000" );
-function veHinhTron(){
+function Render(){
     let canvas = document.getElementById("hinhTron");
     let context = canvas.getContext("2d");
     context.beginPath();
@@ -31,7 +31,7 @@ function veHinhTron(){
     context.closePath();
 
 }
-veHinhTron();
+Render();
 </script>
 </body>
 </html>
